@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/backend20240403160743/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsAppDbConnectionString_F60B8E322A",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/backendkernerdaniel/databases/backend_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AppDbConnectionString",
+      "dynamicId": null
+    }
+  }
+}
